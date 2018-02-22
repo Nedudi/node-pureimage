@@ -407,7 +407,7 @@ exports.registerFont = function(binary, family, weight, style, variant) {
         loaded: false,
         font: null,
         load: function(cb) {
-            console.log("PureImage loading", family,weight,style,variant);
+            //console.log("PureImage loading", family,weight,style,variant);
             if(this.loaded) {
                 if(cb)cb();
                 return;
